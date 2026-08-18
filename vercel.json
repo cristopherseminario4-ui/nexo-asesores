@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/frontend/index.html" },
+    { "source": "/nexo.html", "destination": "/frontend/nexo.html" },
+    { "source": "/programas.html", "destination": "/frontend/programas.html" },
+    { "source": "/cursos.html", "destination": "/frontend/cursos.html" },
+    { "source": "/soporte.html", "destination": "/frontend/soporte.html" },
+    { "source": "/cursos/:path*", "destination": "/frontend/cursos/:path*" },
+    { "source": "/js/:path*", "destination": "/frontend/js/:path*" },
+    { "source": "/partials/:path*", "destination": "/frontend/partials/:path*" }
+  ]
+}

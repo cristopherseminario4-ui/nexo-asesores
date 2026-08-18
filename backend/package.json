@@ -1,0 +1,12 @@
+{
+  "name": "nexo-academy-backend",
+  "version": "1.0.0",
+  "description": "Servidor de NEXO Academy: sirve el frontend, el generador de tickets de soporte y las inscripciones a cursos.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
